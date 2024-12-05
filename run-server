@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SERVER_VERSION=1.0-SNAPSHOT
+
+java -cp target/java-http-server-$SERVER_VERSION.jar eu.kapalka.http.Main $*
+
